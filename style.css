@@ -1,0 +1,41 @@
+* 
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.content {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(pexels-george-dolgikh-1303081.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 0 10%;
+    position: relative;
+}
+
+.content h2{
+    color: antiquewhite;
+    font-size: 65px;
+    font-weight: 600;
+}
+
+.content h2 span {
+    color:red;
+}
+
+.launchTime {
+    display: flex;
+}
+
+.launchTime div {
+    flex-basis: 100px;
+}
+
+.launchTime div p{
+    color: greenyellow;
+    font-size: 60px;
+    margin-bottom: -14px;
+}
