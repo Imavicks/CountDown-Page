@@ -6,17 +6,25 @@
     box-sizing: border-box;
 }
 
-.content {
-    width: 100vw;
-    height: 100vh;
+body {
     background-image: url(pexels-george-dolgikh-1303081.jpg);
     background-position: center;
     background-size: cover;
-    padding: 0 10%;
     position: relative;
+    background-repeat: no-repeat;
+    padding: 0 10%;
+    height: 100vh;
 }
 
-.content h2{
+.content {
+    padding: 100px;
+}
+
+.content h1 {
+   color: antiquewhite;
+}
+
+.content h2 {
     color: antiquewhite;
     font-size: 65px;
     font-weight: 600;
@@ -27,15 +35,34 @@
 }
 
 .launchTime {
+    color: antiquewhite;
     display: flex;
 }
 
 .launchTime div {
-    flex-basis: 100px;
+    flex-basis: 150px;
 }
 
 .launchTime div p{
     color: greenyellow;
     font-size: 60px;
     margin-bottom: -14px;
+}
+
+button {
+    color: red;
+    position: relative;
+    border-radius: 3%;
+    border-color: white;
+    background-color: 2px solid white;
+    cursor: pointer;
+    left: 10rem;
+    bottom: 4rem;
+    font-size: 20px;
+    padding: 5px 5px;
+}
+
+button:hover {
+    background-color: red;
+    color: white;
 }
