@@ -1,5 +1,4 @@
-* 
-{
+* {
     margin: 0;
     padding: 0;
     font-family: 'poppins', sans-serif;
@@ -17,8 +16,10 @@ body {
 }
 
 .content {
+    position: relative;
     text-align: center;
     padding: 100px;
+    right: 10rem;
 }
 
 .content h1 {
@@ -29,6 +30,7 @@ body {
     color: antiquewhite;
     font-size: 65px;
     font-weight: 600;
+    margin: 5px;
 }
 
 .content h2 span {
@@ -36,8 +38,10 @@ body {
 }
 
 .launchTime {
+    position: relative;
     color: antiquewhite;
     display: flex;
+    left: 4rem;
 }
 
 .launchTime div {
@@ -58,7 +62,7 @@ button {
     background-color: 2px solid white;
     cursor: pointer;
     left: 10rem;
-    bottom: 4rem;
+    bottom: 2rem;
     font-size: 20px;
     padding: 5px 5px;
 }
